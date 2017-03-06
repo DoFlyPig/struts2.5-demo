@@ -13,6 +13,8 @@ public class UserAction extends ActionSupport {
 		System.out.println("git");
 		System.out.println("git");
 		System.out.println("git");
+		System.out.println("github");
+		
 		return "list";
 	}
 	
