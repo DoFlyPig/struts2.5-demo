@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<!-- START SNIPPET: xworkSample -->
+<struts>
+
+	<!-- Some or all of these can be flipped to true for debugging -->
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.action.extension" value="action,," />
+
+	<!-- convention list -->
+	<constant name="struts.convention.result.path" value="/WEB-INF/view/"/>
+	  
+    <constant name="struts.convention.package.locators" value="web,action,controller" />  
+
+	<constant name="struts.convention.action.suffix" value="Action"/>
+
+	<constant name="struts.convention.action.name.separator" value="_"/>
+	
+	
+	
+
+</struts>
