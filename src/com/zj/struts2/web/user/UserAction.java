@@ -21,7 +21,9 @@ public class UserAction extends ActionSupport {
 		System.out.println("git...hub");
 		System.out.println("git...hub");
 		System.out.println("git...hub");
-		System.out.println("git...hub");System.out.println("git...hub");
+		System.out.println("git...hub");
+		System.out.println("git...hub");
+		System.out.println("BBBBBBBBBBBBBB");
 		return "list";
 	}
 	
